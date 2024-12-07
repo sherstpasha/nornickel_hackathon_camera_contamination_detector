@@ -2,7 +2,7 @@ import os
 import shutil
 from sklearn.model_selection import train_test_split
 
-def split_data(input_dir, output_dir, test_size=0.2):
+def split_data(input_dir, output_dir, test_size=0.33):
     # Получаем список файлов
     files = os.listdir(input_dir)
     files = [f for f in files if os.path.isfile(os.path.join(input_dir, f))]

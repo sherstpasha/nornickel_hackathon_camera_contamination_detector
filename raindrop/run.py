@@ -5,10 +5,10 @@ import numpy as np
 from joblib import Parallel, delayed
 
 # ========== НАСТРОЙКИ ==========
-INPUT_IMAGE_FOLDER = r"C:\Users\user\Desktop\nornik\orig_aug_data\open_img\train"
-INPUT_MASK_FOLDER = r"C:\Users\user\Desktop\nornik\orig_aug_data\open_msk\train"
-OUTPUT_FOLDER = r"C:\Users\user\Desktop\nornik\orig_aug_data\output"
-NUM_IMAGES_TO_GENERATE = 500  # Количество изображений для создания
+INPUT_IMAGE_FOLDER = r"C:\Users\user\Desktop\nornik\split_orig_aug_data\open_img\train"
+INPUT_MASK_FOLDER = r"C:\Users\user\Desktop\nornik\split_orig_aug_data\open_msk\train"
+OUTPUT_FOLDER = r"C:\Users\user\Desktop\nornik\split_orig_aug_data\output"
+NUM_IMAGES_TO_GENERATE = 300  # Количество изображений для создания
 N_JOBS = 4  # Количество потоков для параллельной обработки
 
 # Папки для вывода

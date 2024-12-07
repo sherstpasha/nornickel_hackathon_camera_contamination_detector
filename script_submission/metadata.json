@@ -1,0 +1,4 @@
+{
+    "image": "jupyter/scipy-notebook",
+    "entrypoint": "python3 infer_by_test.py"
+}

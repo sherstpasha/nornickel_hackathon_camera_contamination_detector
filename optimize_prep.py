@@ -109,6 +109,13 @@ def evaluate_params(params):
         params
     )
 
+    # Вывод параметров с подписями
+    print(f"Brightness Factor: {brightness_factor}")
+    print(f"Contrast Factor: {contrast_factor}")
+    print(f"Noise Factor: {noise_factor}")
+    print(f"Contour Scale: {contour_scale}")
+    print(f"Epsilon Factor: {epsilon_factor}")
+
     iou_scores = []
     for image_name in all_images:
         image_path = os.path.join(dataset_path, image_name)

@@ -179,7 +179,7 @@ if __name__ == "__main__":
     result = differential_evolution(
         evaluate_params,
         bounds,
-        maxiter=1,
+        maxiter=3,
         popsize=5,
         tol=0.01,
         disp=True,

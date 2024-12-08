@@ -179,12 +179,13 @@ if __name__ == "__main__":
     result = differential_evolution(
         evaluate_params,
         bounds,
-        maxiter=10,
+        maxiter=1,
         popsize=5,
         tol=0.01,
         disp=True,
         workers=5,
         updating="deferred",
+        polish=False,
     )
     best_params = result.x
     best_score = -result.fun
